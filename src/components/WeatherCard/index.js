@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export function WeatherCard(params){
     return (
-        <div>
+        <div className='div-weather-card'>
             <h1>{params.temperature}</h1>
             <div>
                 <h2>{params.capital}</h2>

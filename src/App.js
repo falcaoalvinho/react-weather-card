@@ -2,6 +2,7 @@ import AppStyle from './App.css';
 import { useState } from "react";
 import { WeatherCard } from "./components/WeatherCard";
 import { WeatherInput } from "./components/WeatherInput";
+import { WeatherButton } from './components/WeatherButton';
 import { Title } from "./components/Title/Title";
 
 function App() {
@@ -30,8 +31,10 @@ function App() {
   return (
     <div className="div-app">
       <Title>react-weather-card</Title>
-      <WeatherInput onChange={InputChangeHandler}/>
-      <button onClick={APIFetch}>Consultar</button>
+      <div className='div-data'>
+        <WeatherInput onChange={InputChangeHandler}/>
+        <WeatherButton onClick={APIFetch}></WeatherButton>
+      </div>
       <WeatherCard capital={local} temperature={temperature} weather={weather}/>
     </div>
   );

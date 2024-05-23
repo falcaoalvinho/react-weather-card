@@ -1,0 +1,25 @@
+.div-weather-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 30px;
+    border-radius: 20px;
+
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 30px 3px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 40px;
+    color: #6e7681;
+}

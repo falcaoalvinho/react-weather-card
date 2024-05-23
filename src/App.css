@@ -3,9 +3,21 @@
     padding: 0px;
 }
 
+
 .div-app{
     margin-top: 50px;
     display: flex;
     flex-direction: column;
+    flex: 1;
     align-items: center;
+    justify-content: center;
+}
+
+
+:root{
+    --Preto: #010409;
+    --CinzaEscuro: #0d1117;
+    --CinzaClaro: #484f58;
+    --CinzaClaro2: #6e7681;
+    --Branco: #fff;
 }
